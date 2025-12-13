@@ -12,7 +12,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 import java.util.List;
 
 
-public class SecirtuyConfig {
+public class SecurityConfig {
 	@Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
