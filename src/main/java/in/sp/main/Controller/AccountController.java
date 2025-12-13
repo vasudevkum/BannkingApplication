@@ -23,7 +23,8 @@ import in.sp.main.dto.AccountDTO;
 @RestController
 @RequestMapping("/api/accounts")
 //@CrossOrigin("http://localhost:3000")
-@CrossOrigin(origins="*")
+
+
 
 
 public class AccountController {
