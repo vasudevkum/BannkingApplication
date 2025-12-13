@@ -20,7 +20,7 @@ public class CorsConfig {
 	            public void addCorsMappings(CorsRegistry registry) {
 	                registry.addMapping("/**")
 	                        .allowedOrigins(
-	                                "https://deluxe-donut-832067.netlify.app"
+	                                "https://vdkv.netlify.app"
 	                        )
 	                        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
 	                        .allowedHeaders("*");
