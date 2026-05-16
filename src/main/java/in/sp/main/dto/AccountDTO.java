@@ -32,7 +32,7 @@ public class AccountDTO {
 	}
 
 
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -55,6 +55,7 @@ public class AccountDTO {
 	public void setEmail(String email) {
 		this.email = email;
 	}
+	
 
 
 	public Double getBalance() {

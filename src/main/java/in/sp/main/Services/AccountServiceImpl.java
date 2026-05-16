@@ -77,7 +77,7 @@ public class AccountServiceImpl  implements AccountService {
 
 	    List<Account> accounts = rep.findAll();
 
-        // 2️⃣ Har entity ko DTO me convert karo
+        // 2️Har entity ko DTO me convert karo
         return accounts.stream()
                        .map(mapper::todto)
                        .toList();  // Java 17 method
